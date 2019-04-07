@@ -31,7 +31,9 @@ li {
     justify-content: space-between;
     align-items: center;
     height: 69px;
+    width: 100%;
     border-bottom: 1px solid seashell;
+    overflow: auto;
 }
 
 .logo {
@@ -50,4 +52,27 @@ nav ul li a {
     color: seashell;
     padding: 0 10px;
 }
+
+/* Main Section */
+/* Mission */
+.mission {
+    display: flex;
+    align-items: center;
+    background: url('/resources/images/mission-background.jpg') no-repeat center center/cover;
+    margin: 0 auto;
+    height: 700px;
+    width: 1200px;
+}
+
+.span-1 {
+    position: absolute;
+    width: 1200px;
+    background: black;
+}
+
+.span-1 h2, 
+.span-1 h4 {
+    padding: 10px;
+}
+
 
