@@ -1,0 +1,53 @@
+/* Overrides */
+html {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Universal */
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+a {
+    text-decoration: underline;
+}
+
+li {
+    list-style: none;
+}
+/* Header/Navbar */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+}
+
+.logo {
+    height: 50px;
+    align-items: center;
+    margin: auto;
+    padding-left: 10px;
+}
+
+nav ul {
+    display: flex;
+    padding: 10px;
+}
+
+nav ul li a {
+    color: seashell;
+    padding: 0 10px;
+}
+
