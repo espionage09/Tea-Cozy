@@ -6,6 +6,7 @@ html {
 * {
     margin: 0;
     padding: 0;
+  
 }
 
 /* Universal */
@@ -34,6 +35,8 @@ li {
     width: 100%;
     border-bottom: 1px solid seashell;
     overflow: auto;
+    font-family: helvetica;
+    color: seashell;
 }
 
 .logo {
@@ -54,14 +57,17 @@ nav ul li a {
 }
 
 /* Main Section */
+
 /* Mission */
-.mission {
+#mission {
     display: flex;
     align-items: center;
     background: url('/resources/images/mission-background.jpg') no-repeat center center/cover;
     margin: 0 auto;
     height: 700px;
     width: 1200px;
+    font-family: helvetica;
+    color: seashell;
 }
 
 .span-1 {
@@ -75,4 +81,124 @@ nav ul li a {
     padding: 10px;
 }
 
+/* Featured */
+#featured {
+    width: 1000px;
+    margin: 50px auto;
+    font-family: helvetica;
+    color: seashell;
+}
 
+#featured h2 {
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+#featured h4 {
+    padding-bottom: 30px;
+}
+
+.featured-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.featured-img img {
+    height: 200px;
+    width: 300px;
+}
+
+.featured-img h4 {
+    padding-top: 10px;
+}
+
+.center {
+    display: flex;
+    margin: 0 auto;
+}
+
+.bottom-img img {
+    height: 200px;
+    width: 300px;
+}
+
+.center .bottom-img {
+    padding: 25px;
+}
+
+.center .bottom-img h4 {
+    padding-top: 10px;
+}
+
+/* Location */
+#location {
+    width: 1200px;
+    height: 500px;
+    background: url('/resources/images/locations-background.jpg') no-repeat center center/cover;
+    margin: 0 auto;
+    font-family: helvetica;
+    color: seashell;
+
+}
+
+.heading-two-a {
+    position: relative;
+    top: 40px;
+}
+
+.location-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 440px;
+}
+.block-1,
+.block-2,
+.block-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 300px;
+    height: 300px;
+    background: black;
+    color: seashell;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.block-1 {
+    margin-left: 90px;
+}
+
+.block-2 {
+    margin: 0 40px;
+}
+
+.block-3 {
+    margin-right: 90px;
+}
+/* Last Section */
+.last {
+    height: 200px;
+    margin: 0 auto;
+}
+
+.last-block {
+position: relative;
+top: 50px;
+}
+
+.last-block h5 {
+    padding: 15px;
+}
+
+/* Footer */
+
+footer {
+position: relative;
+text-align: left;
+top: 135px;
+margin-left: 20px;
+
+}
